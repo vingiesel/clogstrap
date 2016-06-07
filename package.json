@@ -1,0 +1,34 @@
+{
+  "name": "clogstrap",
+  "version": "0.9.0",
+  "description": "grid components inspired by react-bootstrap",
+  "main": "dist/components.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vingiesel/clogstrap.git"
+  },
+  "keywords": [
+    "bootstrap",
+    "react",
+    "component"
+  ],
+  "author": "Evan Giesel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vingiesel/clogstrap/issues"
+  },
+  "homepage": "https://github.com/vingiesel/clogstrap#readme",
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-core": "^6.9.1",
+    "babel-plugin-transform-react-jsx": "^6.8.0"
+  },
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "lodash": "^4.13.1",
+    "react": "^15.1.0"
+  }
+}
