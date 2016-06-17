@@ -2,9 +2,9 @@
   "name": "clogstrap",
   "version": "0.9.0",
   "description": "grid components inspired by react-bootstrap",
-  "main": "dist/components.js",
+  "main": "dist/dist.min.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "scripts/build.js"
   },
   "repository": {
     "type": "git",
@@ -26,6 +26,8 @@
     "babel-core": "^6.9.1",
     "babel-plugin-transform-react-jsx": "^6.8.0"
   },
+  "format": "cjs",
+  "registry": "jspm",
   "dependencies": {
     "classnames": "^2.2.5",
     "lodash": "^4.13.1",
