@@ -20,11 +20,12 @@ export function Col(props){
 			return `col-${key}-${val}`;
 		} else if (_.includes(['xsOffset', 'smOffset', 'mdOffset', 'lgOffset'], key)){
 			return `col-${_.kebabCase(key)}-${val}`;
-		}
+		} 
+		leftover_props[key] = val
 		return false
 	});
 
 	var class_string = Classnames(...class_list, props.className);
 
-	return <div {...props} className={class_string}>{props.children}</div>
+	return <div {...leftover_props} className={class_string}>{props.children}</div>
 }
