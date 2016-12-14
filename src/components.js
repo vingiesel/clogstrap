@@ -5,6 +5,7 @@ import Classnames from 'classnames';
 export function Grid(props){
 	var class_name = props.fluid ? 'container-fluid' : 'container';
 	var class_list = Classnames(props.className, class_name);
+	delete props.fluid
 	return <div {...props} className={class_list}>{props.children}</div>
 }
 
