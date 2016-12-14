@@ -1,6 +1,6 @@
 {
   "name": "clogstrap",
-  "version": "0.9.6",
+  "version": "0.9.7",
   "description": "grid components inspired by react-bootstrap",
   "main": "dist/dist.min.js",
   "scripts": {
